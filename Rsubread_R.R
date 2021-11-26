@@ -1,0 +1,10 @@
+#Featurecounts using Rsubread
+library(Rsamtools)
+library(Rsubread)
+library(stringr)
+args <- commandArgs(trailingOnly = TRUE)
+annotation <- read.csv(args[1]) 
+ref <- file.path("/mnt/g27prist/CMTD/Sakshi/RNA_testProject/02_analyses/SakshiSnakemake/Genome annotation/gencode.v19.annotation.gtf")
+fc <- featureCounts(files =as.character(annotation$Bampath), annot.ext = ref, isGTFAnnotationFile = TRUE, GTF.featureType = "exon", GTF.attrType = "gene_id", isPairedEnd = TRUE, requireBothEndsMapped = TRUE, minFragLength = 50, maxFragLength = 600, nthreads = 10)
+dir.create( "01_featurescount")
+write.table(x=data.frame(fc$annotation[,c("GeneID","Length")],fc$counts,stringsAsFactors=FALSE),file="01_featurescount/counts.csv",quote=FALSE,sep="\t",row.names=FALSE)
