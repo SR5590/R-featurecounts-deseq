@@ -15,8 +15,8 @@ $ cd R-featurecounts-deseq
 the current working dirtectory needs to be the R-featurecounts-deseq folder 
 
 ```
-"Rscript script/Rsubread_R.R $PathToSample_info.csv"                       
-"Rscirpt script/DEseq2_R.R"
+"Rscript Rsubread_R.R $PathToSample_info.csv"                       
+"Rscirpt DEseq2_R.R"
                       
 
 ```
