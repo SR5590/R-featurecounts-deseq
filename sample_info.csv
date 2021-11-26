@@ -1,0 +1,7 @@
+ Sample ID,Bampath,Type
+AN14017461,/mnt/g27prist/CMTD/Sakshi/RNA_testProject/02_analyses/SakshiSnakemake/03_mapped/AN14017461/AN14017461Aligned.sortedByCoord.out.bam,Bone
+AN14017462,/mnt/g27prist/CMTD/Sakshi/RNA_testProject/02_analyses/SakshiSnakemake/03_mapped/AN14017462/AN14017462Aligned.sortedByCoord.out.bam,Bone
+AN14017463,/mnt/g27prist/CMTD/Sakshi/RNA_testProject/02_analyses/SakshiSnakemake/03_mapped/AN14017463/AN14017463Aligned.sortedByCoord.out.bam,Bone
+AN14017464,/mnt/g27prist/CMTD/Sakshi/RNA_testProject/02_analyses/SakshiSnakemake/03_mapped/AN14017464/AN14017464Aligned.sortedByCoord.out.bam,Met
+AN14017465,/mnt/g27prist/CMTD/Sakshi/RNA_testProject/02_analyses/SakshiSnakemake/03_mapped/AN14017465/AN14017465Aligned.sortedByCoord.out.bam,Met
+AN14017466,/mnt/g27prist/CMTD/Sakshi/RNA_testProject/02_analyses/SakshiSnakemake/03_mapped/AN14017466/AN14017466Aligned.sortedByCoord.out.bam,Met
